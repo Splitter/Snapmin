@@ -1,0 +1,42 @@
+ul.dynamicList{
+list-style:none;
+margin:0;
+padding:0;
+}
+ul.dynamicList li{
+background:#efefef;
+border: solid 1px #ddd;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding:20px;
+margin:0 0 15px 0;
+cursor: pointer;
+}
+ul.dynamicList li table{
+margin-bottom:40px;
+}
+
+ul.dynamicList .placeholder {
+background: #f3f3f3;
+border: dashed 1px #bbb;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+min-height:100px;
+}
+
+.dynamic-default{
+display:none;
+}
+.snap-dynamic,.snap-dynamic td,.snap-dynamic tr{
+padding:0;
+margin:0;
+text-align:top;vertical-align:top;
+}
+.snap-dynamic label{
+display:block;vertical-align:top;
+}
+
+
+

@@ -1,0 +1,40 @@
+.sv-gallery-inner{
+	background:#fafafa;
+	border:1px solid #cdcdcd;
+	padding:10px;
+	height:auto;
+	float: left;
+	margin-top:20px;
+	width:100%;
+}
+.sv-gallery-inner ul{
+  float: left;
+  margin: 0;
+  width: 100%;
+}
+.sv-gallery-inner li{
+	display:block;
+	width:100px;
+	padding:5px;
+	border:1px solid #cdcdcd;
+	background:#fdfdfd;
+	float:left;
+	margin-left:5px;
+}
+.sv-gallery-inner li img {
+	width:100px;
+	height:80px;
+}
+.sv-gallery-button{
+	width:auto;
+	padding-top:20px;
+	clear:both;
+}
+.sv-gallery-button .top{
+	padding:0;
+}
+.sv-gallery-edit{
+	float:right;
+}
+
+

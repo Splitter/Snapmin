@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<section>
+  <title>Snapmin Test</title>
+  <position>4</position>
+  <capability>manage_options</capability>
+  <pages>
+    <page>
+      <title>Example of a Static Page Type</title>
+      <menuTitle>Static Page</menuTitle>
+      <type>static</type>
+      <menuSlug>snap_static</menuSlug>
+      <options>
+        <option>
+          <type>header</type>
+          <desc>Text Input Elements</desc>
+          <name>_header1</name>
+          <disp>1</disp>
+        </option>
+        <option>
+          <type>paragraph</type>
+          <desc>Below are all of the options available within Snapmin that utilize text input fields. (This is a 'paragraph' option and above is a 'heading' option.)</desc>
+          <name>_paragraph1</name>
+          <disp>2</disp>
+        </option>
+        <option>
+          <type>text</type>
+          <desc>A basic text input field.</desc>
+          <title>Text Input</title>
+          <name>_text1</name>
+          <def>This is the default value</def>
+          <disp>3</disp>
+        </option>
+        <option>
+          <type>numeric</type>
+          <desc>An input field that can only contain numeric values.</desc>
+          <title>Numeric Input</title>
+          <name>_number1</name>
+          <def>22</def>
+          <disp>4</disp>
+        </option>
+        <option>
+          <type>date</type>
+          <desc>An input field that can only contain dates in the format of (m/dd/YY).</desc>
+          <title>Date Input</title>
+          <name>_date1</name>
+          <def>2/22/2001</def>
+          <disp>5</disp>
+        </option>
+        <option>
+          <type>color</type>
+          <desc>An input field that can only contain hex color codes.</desc>
+          <title>Color Input</title>
+          <name>_color1</name>
+          <def>#000000</def>
+          <disp>6</disp>
+        </option>
+        <option>
+          <type>upload</type>
+          <desc>An input field that fires an instance of wordpresss media manager.</desc>
+          <title>Upload Input</title>
+          <name>_upload1</name>
+          <def/>
+          <disp>7</disp>
+        </option>
+        <option>
+          <type>header</type>
+          <desc>Select/Dropdown Elements</desc>
+          <name>_heading2</name>
+          <disp>8</disp>
+        </option>
+        <option>
+          <type>paragraph</type>
+          <desc>Below are all of the options available within Snapmin that utilize select fields.  </desc>
+          <name>_paragraph2</name>
+          <disp>9</disp>
+        </option>
+        <option>
+          <type>select</type>
+          <desc>A basic select Element.</desc>
+          <title>Select Element</title>
+          <name>_select1</name>
+          <def>two</def>
+          <opts>one:;One,,two:;Two,,three:;Three</opts>
+          <disp>10</disp>
+        </option>
+        <option>
+          <type>tag</type>
+          <desc>A select element that lists all available tags.</desc>
+          <title>Tag Dropdown</title>
+          <name>_tag</name>
+          <disp>11</disp>
+        </option>
+        <option>
+          <type>category</type>
+          <desc>A select element that lists all available categories.</desc>
+          <title>Category Dropdown</title>
+          <name>_cat1</name>
+          <disp>12</disp>
+        </option>
+        <option>
+          <type>header</type>
+          <desc>Misc Element Types</desc>
+          <name>other</name>
+          <disp>13</disp>
+        </option>
+        <option>
+          <type>textarea</type>
+          <desc>A basic textarea element</desc>
+          <title>Textarea </title>
+          <name>textarea</name>
+          <def/>
+          <disp>14</disp>
+        </option>
+        <option>
+          <type>richtext</type>
+          <desc>A Rich textarea</desc>
+          <title>Rich Text Editor</title>
+          <name>richtext</name>
+          <def/>
+          <disp>15</disp>
+        </option>
+        <option>
+          <type>radio</type>
+          <desc>A basic Radio Element</desc>
+          <title>Radio Input</title>
+          <name>radio</name>
+          <def/>
+          <opts>one:;One,,two:;Two,,three:;Three</opts>
+          <disp>16</disp>
+        </option>
+        <option>
+          <type>gallery</type>
+          <desc/>
+          <title>Gallery Option</title>
+          <name>gallery</name>
+          <disp>17</disp>
+        </option>
+      </options>
+      <pageOptions/>
+    </page>
+    <page>
+      <title>Example of a Dynamic Page</title>
+      <menuTitle>Dynamic Page</menuTitle>
+      <type>dynamic</type>
+      <menuSlug>dynamicq</menuSlug>
+      <pageOptions>
+        <option>
+          <type>paragraph</type>
+          <desc>Dynamic page allows you to have a sortable list of elements containing idividual options as well as static page options. Imagine using it to create a slideshow, where each slide contains an image with caption but you also want the page title to be editable by the user.</desc>
+          <name>paragrah1</name>
+          <disp>1</disp>
+        </option>
+        <option>
+          <type>text</type>
+          <desc>an example description</desc>
+          <title>Page title</title>
+          <name>title</name>
+          <def>Example page input field</def>
+          <disp>2</disp>
+        </option>
+        <option>
+          <type>paragraph</type>
+          <desc>The blocks below are sortable via jQuery powered drag and drop interface.</desc>
+          <name>paragraph3</name>
+          <disp>3</disp>
+        </option>
+      </pageOptions>
+      <options>
+        <option>
+          <type>text</type>
+          <desc>A basic text input field.</desc>
+          <title>Text Input</title>
+          <name>_text1</name>
+          <def>This is the default value</def>
+          <disp>4</disp>
+        </option>
+        <option>
+          <type>textarea</type>
+          <desc>A basic textarea element</desc>
+          <title>Textarea </title>
+          <name>textarea</name>
+          <def>test</def>
+          <disp>5</disp>
+        </option>
+      </options>
+    </page>
+  </pages>
+</section>
