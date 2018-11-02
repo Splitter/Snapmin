@@ -22,9 +22,9 @@ Easily create themeoption pages for wordpress themes/websites using an intuitive
   
   require get_template_directory() . '/Snapmin/Snapmin.php';
 
-3. Two new menu items will display within the wordpress admin area 'Snapmin Test' and 'Snap Builder'. Snap Builder is the editor interface for building the theme option pages that are displayed under the Snapmin Test menu item.
+3. Two new menu items will display within the wordpress admin area 'Snapmin Test' and 'Snap Builder'. Snap Builder is the editor interface for building the theme option pages. The options pages created with Snap Builder will display under the Snapmin Test menu(name can be changed).
 
-4. Each pages(ones created by script) will save their options using wordpress' standard get_option/set_option api using the value of 'menu_slug' as the name when you create the pages. 
+4. Each page(ones created by script) will save their options using wordpress' standard get_option/set_option api using the value of 'menu_slug' as the name when you create the pages. 
 
 5. Once done using snap builder to build themeoptions pages then edit Snapmin.php and change the following line
   
