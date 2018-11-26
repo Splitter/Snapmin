@@ -1,5 +1,6 @@
 Snapmin
 =======
+Update: recently did some quick testing in Wordpress 4.9.8 and it still seems to function as intended
 
 Easily create themeoption pages for wordpress themes/websites using an intuitive drag/drop interface.
 
